@@ -1,43 +1,54 @@
 node_modules/
 dist/
+dist-chrome/
+dist-firefox/
 *.log
-.DS_Store
 *.tsbuildinfo
-# packages/*/node_modules/
-packages/*/dist/
-packages/*/dist-chrome/
-packages/*/dist-firefox/
 *.cpuprofile
 
-# Environment
 .env
+.env.*
 
-# Editor files
 .vscode/
 .zed/
 .idea/
 .claude/
-.codex/
-.kiro/
 *.swp
 *.swo
 *~
 
-# Package specific
 .npm/
 coverage/
 .nyc_output/
 .pi_config/
-tui-debug.log
-compaction-results/
 .opencode/
+
 syntax.jsonl
 out.jsonl
 pi-*.html
 out.html
+
 packages/coding-agent/binaries/
-todo.md
-plans/
 .pi/hf-sessions/
 .pi/hf-sessions-backup/
+
+*.lock
+package-lock.json
+npm-shrinkwrap.json
+
+*.generated.ts
+*.generated.js
+
+*.map
+*.min.js
+*.min.css
+
+*.wasm
+*.node
+
+.DS_Store
+Thumbs.db
+
+todo.md
+plans/
 collect.sh
